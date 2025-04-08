@@ -54,6 +54,13 @@ main h2 {
   margin: 0 0 1em 1em;
 }
 
+/* Tagline under name */
+.tagline {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
 /* News section */
 #news ul {
   padding-left: 20px;
@@ -61,6 +68,10 @@ main h2 {
 
 #news li {
   margin-bottom: 1em;
+}
+
+#news li strong {
+  color: #007acc;
 }
 
 /* Project section (Research Page) */
@@ -85,9 +96,25 @@ main h2 {
 /* Footer */
 footer {
   text-align: center;
-  font-size: 0.9em;
-  color: #777;
+  font-size: 0.95em;
+  color: #444;
   margin-top: 40px;
-  border-top: 1px solid #eee;
-  padding-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0 10px;
+  color: #007acc;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #005a99;
 }
